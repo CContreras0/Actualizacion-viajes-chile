@@ -1,0 +1,101 @@
+@import "../../node_modules/bootstrap/scss/bootstrap";
+
+@import "./custom/custom.scss";
+
+body {
+    max-width: 85%;
+    margin: 0 auto;
+    background-color: #212529;
+}
+
+.navbar {
+    background-color: transparent !important;
+    margin-bottom: -90px;
+    z-index: 100;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    width: 100%;
+    max-width: 85%;
+    margin: 0 auto;
+    font-size: 20px;
+    font-family: "Roboto";
+    font-weight: 100;
+
+}
+
+.navbar-brand {
+    display: flex;
+    align-items: center;
+    position: fixed;
+    color: #ffffff;
+
+}
+
+.imgnav {
+    height: 30px;
+}
+
+.titulonav {
+    margin: 0;
+    color: #ffffff;
+    font-family: "Roboto";
+    font-weight: 100;
+}
+
+.navbar-nav .nav-link {
+    color: #ffffff !important;
+    font-family: "Roboto";
+    font-weight: 100;
+}
+
+#carouselExampleDark .carousel-item img {
+    max-height: 500px;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+h3 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #ffffff;
+}
+
+.underline {
+    width: 160vh;
+    height: 4px;
+    background-color: #ffffff;
+}
+
+.first-img {
+    border-radius: 20px;
+    max-height: 50vh;
+    max-width: 100vh;
+}
+
+.quienes-somos {
+    align-items: center;
+    color: #ffffff;
+}
+
+.img-fluid {
+    height: 200px;
+    width: 200px;
+    object-fit: cover;
+
+}
+
+.second-text {
+    display: flex;
+    justify-content: space-between
+}
+
+
+.social-media {
+    color: #ffffff;
+}
+
+.personal-form {
+    color: #ffffff;
+}
+

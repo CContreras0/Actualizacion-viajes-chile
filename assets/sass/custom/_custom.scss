@@ -1,0 +1,40 @@
+.roboto-regular {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400, 700;
+    font-style: normal;
+}
+
+.mention-container{
+
+.mention-list__item{
+    color: #ffffff;
+}
+
+.mention-list__img {
+    overflow: hidden;
+    border-radius: 50px;
+    width: 70px;
+    height: 70px;
+    border-color: 20px solid #ffffff;
+}
+}
+
+
+@media only screen and (max-width: 768px
+    /* solo sm y md */
+) {
+
+    /* https://getbootstrap.com/docs/5.3/layout/grid/
+        xs <576px	
+        sm ≥576px	
+        md ≥768px	
+        lg ≥992px    
+    */
+    .first-img  {
+        display: none;
+    }
+
+    #carouselExampleDark .carousel-item img {
+        max-height: 300px;
+    }
+}

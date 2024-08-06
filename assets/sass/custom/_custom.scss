@@ -4,19 +4,31 @@
     font-style: normal;
 }
 
-.mention-container{
+.mention-container {
+    font-family: "Roboto";
 
-.mention-list__item{
-    color: #ffffff;
-}
+    .mention-container__underline {
+        height: 4px;
+        background-color: #ffffff;
+    }
 
-.mention-list__img {
-    overflow: hidden;
-    border-radius: 50px;
-    width: 70px;
-    height: 70px;
-    border-color: 20px solid #ffffff;
-}
+    .mention-list__item {
+        color: #ffffff;
+        font-style: italic;
+        font-size: 18px;
+    }
+
+    .mention-list__img {
+        overflow: hidden;
+        border-radius: 50px;
+        width: 70px;
+        height: 70px;
+        border: 2px solid #ffffff; // corregí border-color a border
+    }
+
+    .mention-list__user {
+        font-size: 22px;
+    }
 }
 
 
@@ -30,7 +42,7 @@
         md ≥768px	
         lg ≥992px    
     */
-    .first-img  {
+    .first-img {
         display: none;
     }
 

@@ -2,7 +2,7 @@
 
 @import "./custom/custom.scss";
 
-body {    
+body {
     margin: 0 auto;
     background-color: #212529;
 }
@@ -68,18 +68,22 @@ h3 {
     max-height: 50vh;
     width: 100%;
 }
-.modal-body{
-    color:black;
+
+.modal-body {
+    color: #000000;
 }
-.color-white{
-    color:white;
-    margin-top:-8px;
-    padding:0;
+
+.color-white {
+    color: #ffffff;
+    margin-top: -8px;
+    padding: 0;
     text-decoration: underline;
 }
+
 .quienes-somos {
-    // align-items: center;
     color: #ffffff;
+    font-family: "Roboto";
+    font-size: 18px;
 }
 
 .img-fluid {
@@ -97,9 +101,22 @@ h3 {
 
 .social-media {
     color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    font-family: "Roboto";
+    font-size: 18px;
 }
 
 .personal-form {
     color: #ffffff;
+    font-family: "Roboto";
+    font-size: 18px;
 }
 
+.destacados{
+    font-family: "Roboto";
+    font-size: 16px;
+
+}

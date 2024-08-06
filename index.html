@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
     <meta charset="UTF-8">
@@ -57,7 +57,7 @@
             <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2"
                 aria-label="Slide 3"></button>
         </div>
-        <div class="carousel-inner">
+        <div class="carousel-inner" id="inicio">
             <div class="carousel-item active" data-bs-interval="10000">
                 <img src="https://i.postimg.cc/L8QM3fRT/carousel1.jpg" class="d-block w-100" alt="Imagen1">
                 <div class="carousel-caption d-none d-md-block">
@@ -101,12 +101,13 @@
                         class="col-md-6 float-md-start mb-3 ms-md-3" alt="...">
                 </div>
             </div>
-            <div class="col-sm-12 col-md-6">
+            <div class="col-sm-12 col-md-6 text-start">
                 <div class="p-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
                     incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
                     ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit
                     in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
                     cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                    <br>
                     <br>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
                     labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
@@ -119,7 +120,7 @@
     </div>
 
 
-    <div class="container text-center">
+    <div class="container text-center destacados">
         <h3 id="destacados">Destacados</H3>
         <hr class="underline">
         <div class="row g-2">
@@ -131,7 +132,7 @@
                                 <img src="https://i.postimg.cc/dtF8FHph/card1.jpg" class="img-fluid rounded-start"
                                     alt="...">
                             </div>
-                            <div class="col-md-8">
+                            <div class="col-md-8 text-start">
                                 <div class="card-body">
                                     <h5 class="card-title">Región de los Lagos</h5>
                                     <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit,
@@ -145,7 +146,7 @@
                                                     <path
                                                         d="M192 93.7C192 59.5 221 0 256 0c36 0 64 59.5 64 93.7l0 66.3L497.8 278.5c8.9 5.9 14.2 15.9 14.2 26.6l0 56.7c0 10.9-10.7 18.6-21.1 15.2L320 320l0 80 57.6 43.2c4 3 6.4 7.8 6.4 12.8l0 42c0 7.8-6.3 14-14 14c-1.3 0-2.6-.2-3.9-.5L256 480 145.9 511.5c-1.3 .4-2.6 .5-3.9 .5c-7.8 0-14-6.3-14-14l0-42c0-5 2.4-9.8 6.4-12.8L192 400l0-80L21.1 377C10.7 380.4 0 372.7 0 361.8l0-56.7c0-10.7 5.3-20.7 14.2-26.6L192 160l0-66.3z" />
                                                 </svg></small> Vuelos desde:</p>
-                                        <p>$159.990</p>
+                                        <strong><p>$159.990</p></strong>
                                     </div>
                                 </div>
                             </div>
@@ -162,7 +163,7 @@
                                     alt="...">
                             </div>
                             <div class="col-md-8">
-                                <div class="card-body">
+                                <div class="card-body text-start">
                                     <h5 class="card-title">Desierto de Atacama</h5>
                                     <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit,
                                         sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
@@ -175,7 +176,7 @@
                                                     <path
                                                         d="M192 93.7C192 59.5 221 0 256 0c36 0 64 59.5 64 93.7l0 66.3L497.8 278.5c8.9 5.9 14.2 15.9 14.2 26.6l0 56.7c0 10.9-10.7 18.6-21.1 15.2L320 320l0 80 57.6 43.2c4 3 6.4 7.8 6.4 12.8l0 42c0 7.8-6.3 14-14 14c-1.3 0-2.6-.2-3.9-.5L256 480 145.9 511.5c-1.3 .4-2.6 .5-3.9 .5c-7.8 0-14-6.3-14-14l0-42c0-5 2.4-9.8 6.4-12.8L192 400l0-80L21.1 377C10.7 380.4 0 372.7 0 361.8l0-56.7c0-10.7 5.3-20.7 14.2-26.6L192 160l0-66.3z" />
                                                 </svg></small> Vuelos desde:</p>
-                                        <p>$189.990</p>
+                                        <strong><p>$189.990</p></strong>
                                     </div>
                                 </div>
                             </div>
@@ -192,7 +193,7 @@
                                     alt="...">
                             </div>
                             <div class="col-md-8">
-                                <div class="card-body">
+                                <div class="card-body text-start">
                                     <h5 class="card-title">Norte grande de Chile</h5>
                                     <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit,
                                         sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
@@ -205,7 +206,7 @@
                                                     <path
                                                         d="M192 93.7C192 59.5 221 0 256 0c36 0 64 59.5 64 93.7l0 66.3L497.8 278.5c8.9 5.9 14.2 15.9 14.2 26.6l0 56.7c0 10.9-10.7 18.6-21.1 15.2L320 320l0 80 57.6 43.2c4 3 6.4 7.8 6.4 12.8l0 42c0 7.8-6.3 14-14 14c-1.3 0-2.6-.2-3.9-.5L256 480 145.9 511.5c-1.3 .4-2.6 .5-3.9 .5c-7.8 0-14-6.3-14-14l0-42c0-5 2.4-9.8 6.4-12.8L192 400l0-80L21.1 377C10.7 380.4 0 372.7 0 361.8l0-56.7c0-10.7 5.3-20.7 14.2-26.6L192 160l0-66.3z" />
                                                 </svg></small> Vuelos desde:</p>
-                                        <p>$289.990</p>
+                                        <strong><p>$289.990</p></strong>
                                     </div>
                                 </div>
                             </div>
@@ -222,7 +223,7 @@
                                     alt="...">
                             </div>
                             <div class="col-md-8">
-                                <div class="card-body">
+                                <div class="card-body text-start">
                                     <h5 class="card-title">Bosque mágico</h5>
                                     <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit,
                                         sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
@@ -235,7 +236,7 @@
                                                     <path
                                                         d="M192 93.7C192 59.5 221 0 256 0c36 0 64 59.5 64 93.7l0 66.3L497.8 278.5c8.9 5.9 14.2 15.9 14.2 26.6l0 56.7c0 10.9-10.7 18.6-21.1 15.2L320 320l0 80 57.6 43.2c4 3 6.4 7.8 6.4 12.8l0 42c0 7.8-6.3 14-14 14c-1.3 0-2.6-.2-3.9-.5L256 480 145.9 511.5c-1.3 .4-2.6 .5-3.9 .5c-7.8 0-14-6.3-14-14l0-42c0-5 2.4-9.8 6.4-12.8L192 400l0-80L21.1 377C10.7 380.4 0 372.7 0 361.8l0-56.7c0-10.7 5.3-20.7 14.2-26.6L192 160l0-66.3z" />
                                                 </svg></small> Vuelos desde:</p>
-                                        <p>$259.990</p>
+                                        <strong><p>$259.990</p></strong>
                                     </div>
                                 </div>
                             </div>
@@ -247,7 +248,7 @@
     </div>
 
     <div class="container overflow-hidden text-center mention-container">
-        <h3 id="mention-container__title">Testimonios</H3>
+        <h3 id="testimonios" id="mention-container__title">Testimonios</h3>
         <hr class="mention-container__underline">
         <div class="row gx-1 mention-list">
             <div class="col mention-list__item">
@@ -258,7 +259,7 @@
                     <img src="https://i.postimg.cc/2S4M6K8g/testimonio1.jpg" class="mention-list__img">
                 </div>
                 <div>
-                    <p class="mention-list__user">Mariela</p>
+                    <p class="mention-list__user mt-4">Mariela</p>
                 </div>
             </div>
             <div class="col mention-list__item">
@@ -269,7 +270,7 @@
                     <img src="https://i.postimg.cc/d36RpGqH/testimonio2.jpg" class="mention-list__img">
                 </div>
                 <div>
-                    <p class="mention-list__user">Christian</p>
+                    <p class="mention-list__user mt-4">Christian</p>
                 </div>
             </div>
             <div class="col mention-list__item">
@@ -280,7 +281,7 @@
                     <img src="https://i.postimg.cc/fWfvVQxc/testimonio3.jpg" class="mention-list__img">
                 </div>
                 <div>
-                    <p class="mention-list__user">Fernanda</p>
+                    <p class="mention-list__user mt-4">Fernanda</p>
                 </div>
             </div>
         </div>
@@ -306,16 +307,21 @@
                                     data-bs-placement="top">
                             </div>
 
-                            <div class="col-6">Email
-                                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder=""
-                                    title="Ingrese su email" data-bs-toggle="tooltip" data-bs-placement="top">
+                            <div class="col-6">
+                                <label for="email" class="form-label" data-bs-title="Ingrese su email"
+                                    data-bs-toggle="tooltip" data-bs-placement="top">Email</label>
+                                <input id="email" type="email" class="form-control" id="exampleFormControlInput1"
+                                    placeholder="" title="Ingrese su email" data-bs-toggle="tooltip"
+                                    data-bs-placement="top">
                             </div>
                         </div>
                         <div class="row">
                             <div class="col-12 mb-3 mt-3">
-                                Mensaje
-                                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder=""
-                                    title="Escribe tu mensaje" data-bs-toggle="tooltip"
+
+                                <label for="mensaje" class="form-label" data-bs-title="Ingrese un mensaje"
+                                    data-bs-toggle="tooltip" data-bs-placement="top">Mensaje</label>
+                                <textarea id="mensaje" class="form-control" id="exampleFormControlTextarea1" rows="3"
+                                    placeholder="" title="Escribe tu mensaje" data-bs-toggle="tooltip"
                                     data-bs-placement="top"></textarea>
                             </div>
                         </div>
@@ -373,7 +379,8 @@
                         </div>
                         <div class="row">
                             <div class="col-12 text-start">
-                                <button type="button" class="btn btn-light">Enviar</button>
+                                <button type="button" class="btn btn-light" id="enviarformulario"
+                                    title="Presiona para enviar el formulario" data-bs-toggle="tooltip">Enviar</button>
                             </div>
                         </div>
                     </div>
@@ -381,7 +388,7 @@
             </div>
             <div class="col-md-6">
                 <div class="social-media">
-                    <div class="d-flex align-items-center mb-3">
+                    <div class="d-flex align-items-center mb-3 gap-2">
                         <svg xmlns="http://www.w3.org/2000/svg" height="14" width="14"
                             viewBox="0 0 512 512"><!--!Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
                             <path fill="#ffffff"
@@ -389,7 +396,7 @@
                         </svg>
                         <p class="mb-0 ml-2">+56999887766</p>
                     </div>
-                    <div class="d-flex align-items-center mb-3">
+                    <div class="d-flex align-items-center mb-3  gap-2">
                         <svg xmlns="http://www.w3.org/2000/svg" height="14" width="14"
                             viewBox="0 0 512 512"><!--!Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
                             <path fill="#ffffff"
@@ -397,7 +404,7 @@
                         </svg>
                         <p class="mb-0 ml-2">tuemail@gmail.com</p>
                     </div>
-                    <div class="d-flex align-items-center mb-3">
+                    <div class="d-flex align-items-center mb-3  gap-2">
                         <svg xmlns="http://www.w3.org/2000/svg" height="14" width="12.25"
                             viewBox="0 0 448 512"><!--!Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
                             <path fill="#ffffff"
@@ -405,7 +412,7 @@
                         </svg>
                         <p class="mb-0 ml-2">tulinkedin</p>
                     </div>
-                    <div class="d-flex align-items-center mb-3">
+                    <div class="d-flex align-items-center mb-3  gap-2">
                         <svg xmlns="http://www.w3.org/2000/svg" height="14" width="12.25"
                             viewBox="0 0 448 512"><!--!Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
                             <path fill="#ffffff"
@@ -424,6 +431,5 @@
     <script type="module" src="assets/js/main.js"></script>
 
 </body>
-
 
 </html>

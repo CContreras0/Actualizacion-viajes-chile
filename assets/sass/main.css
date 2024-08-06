@@ -11850,15 +11850,27 @@ textarea.form-control-lg {
   font-style: normal;
 }
 
+.mention-container {
+  font-family: "Roboto";
+}
+.mention-container .mention-container__underline {
+  height: 4px;
+  background-color: #ffffff;
+}
 .mention-container .mention-list__item {
   color: #ffffff;
+  font-style: italic;
+  font-size: 18px;
 }
 .mention-container .mention-list__img {
   overflow: hidden;
   border-radius: 50px;
   width: 70px;
   height: 70px;
-  border-color: 20px solid #ffffff;
+  border: 2px solid #ffffff;
+}
+.mention-container .mention-list__user {
+  font-size: 22px;
 }
 
 @media only screen and (max-width: 768px) {
@@ -11942,11 +11954,11 @@ h3, .h3 {
 }
 
 .modal-body {
-  color: black;
+  color: #000000;
 }
 
 .color-white {
-  color: white;
+  color: #ffffff;
   margin-top: -8px;
   padding: 0;
   text-decoration: underline;
@@ -11954,6 +11966,8 @@ h3, .h3 {
 
 .quienes-somos {
   color: #ffffff;
+  font-family: "Roboto";
+  font-size: 18px;
 }
 
 .img-fluid {
@@ -11969,8 +11983,21 @@ h3, .h3 {
 
 .social-media {
   color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+  font-family: "Roboto";
+  font-size: 18px;
 }
 
 .personal-form {
   color: #ffffff;
+  font-family: "Roboto";
+  font-size: 18px;
+}
+
+.destacados {
+  font-family: "Roboto";
+  font-size: 16px;
 }/*# sourceMappingURL=main.css.map */

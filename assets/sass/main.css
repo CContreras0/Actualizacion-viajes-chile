@@ -11876,7 +11876,6 @@ textarea.form-control-lg {
   }
 }
 body {
-  max-width: 85%;
   margin: 0 auto;
   background-color: #212529;
 }
@@ -11889,7 +11888,6 @@ body {
   justify-content: space-between;
   position: fixed;
   width: 100%;
-  max-width: 85%;
   margin: 0 auto;
   font-size: 20px;
   font-family: "Roboto";
@@ -11933,7 +11931,6 @@ h3, .h3 {
 }
 
 .underline {
-  width: 160vh;
   height: 4px;
   background-color: #ffffff;
 }
@@ -11941,16 +11938,26 @@ h3, .h3 {
 .first-img {
   border-radius: 20px;
   max-height: 50vh;
-  max-width: 100vh;
+  width: 100%;
+}
+
+.modal-body {
+  color: black;
+}
+
+.color-white {
+  color: white;
+  margin-top: -8px;
+  padding: 0;
+  text-decoration: underline;
 }
 
 .quienes-somos {
-  align-items: center;
   color: #ffffff;
 }
 
 .img-fluid {
-  height: 200px;
+  height: 100%;
   width: 200px;
   object-fit: cover;
 }
